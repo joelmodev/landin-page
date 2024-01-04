@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.dark-theme {
+  a, p, #a, .menu-button, i, label {
+    color: #f8f8f8;
+  }
+  input, input:focus, textarea, textarea:focus{
+    background-color: #2e3134;
+  }
+  .responsive{
+    background-color: #414446;
+  }
+}
+.dark-theme{
+  background-color: #2e3134;
+}
+.white-theme{
+  a, p, i, .menu-button {
+    color: #2e3134;
+  }
+  .responsive{
+    background-color: #fff;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  }
+  .fa-linkedin, .fa-facebook, .fa-instagram, .fa-spotify{
+    color: #fff;
+  }
+  .fa-linkedin:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-spotify:hover{
+    color: #fbaf29;
+  }
+}
+.white-theme{
+  background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6, a, .titulo{
+  font-family: Coming Soon;
+  color: #fbaf29;
+}
+p{
+  font-family: Roboto; 
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #fbaf29;
+}
+#a{
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.container{
+  margin: 20px;
+}
+/*
+*
+*  SCROLL BAR STYLES
+*
+*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+/*
+*
+*  BTNT STYLES
+*
+*/
+
+.btn-primario:hover{
+  background-color: #e29d27;
+  color: #fff;
+}
+.btn-primario{
+  background-color: #fbaf29;
+  border: none;
+  color: #fff;
+}
+.btn-primario:focus{
+  background-color: #fbaf29;
+  color: #2e3134;
+}
+
+
+/*
+*
+*  NAVBAR STYLES
+*
+*/
+nav{
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.8px);
+  -webkit-backdrop-filter: blur(13.8px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+.menu-button{
+  display: none;
+  color: #2e3134;
+}
+.menu-button:hover{
+  cursor: pointer;
+}
+
+
+nav div, nav ul li, nav .nav-brand{
+  display: inline;
+}
+nav ul{
+  list-style: none;
+}
+.list-menu{
+  display: inline;
+  float: right;
+  margin: 2.5px;
+}
+.list-menu a{
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+  nav{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.8px);
+    -webkit-backdrop-filter: blur(13.8px);
+    position: static;
+  }
+  .list-menu{
+    display: none;
+  }
+  .menu-button{
+    display: inline;
+    float: right;
+    margin: 2.5px;
+  }
+  .responsive {
+    display: block;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+  }
+  .responsive li{
+    display: block;
+    margin-top: 5px;
+  }
+  #a{
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+}
+
+
+
+
+.socials{
+  background-color: #fbaf29;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 90px;
+}
+.fa-brands {
+  color: #fff;
+}
+
+.socials:hover{
+  background-color: transparent;
+  color: #e29d27;
+}
+.socials-container{
+  margin-bottom: 5rem;
+}
+.socials-head{
+  margin-top: 5rem;
+}
