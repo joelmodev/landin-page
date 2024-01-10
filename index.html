@@ -17,14 +17,23 @@
         <div class="menu-button" onclick="menu()">
             <i class="fa-solid fa-bars"></i>
         </div>
-        <div class="list-menu" id="listmenu"><ul id="ul-menu" class="nada">
+        <div class="list-menu" id="listmenu">
+          <ul id="menu-links">
             <li><a href="#">Home</a></li>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#services">Serviços</a></li>
             <li><a href="#contact">Contato</a></li>
-            <li id="temabtn" onclick="mudarTema()"><a href="javascript:void(0)"><i id="a" class="fa-solid fa-moon"></i></a></li>
-        </ul></div>
+        </ul>
+        <ul  id="menu-btn">
+            <li><a href="#" style="margin-right: 10px;">Entrar</a></li>
+            <li><a class="btn btn-primario">Cadastre-se</a></li>
+        </ul>
+        </div>
     </nav>
+   <!--
+    THEME BTN
+   -->
+    <div id="temabtn" onclick="mudarTema()"><a  href="javascript:void(0)"><i id="a" class="fa-solid fa-moon"></i></a></div> 
 
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
       <div class="row align-items-center g-lg-5 py-5">
