@@ -18,6 +18,9 @@ body{
   .responsive{
     background-color: #414446;
   }
+  .form-control{
+    color: #fff;
+  }
 }
 .dark-theme{
   background-color: #2e3134;
@@ -35,6 +38,9 @@ body{
   }
   .fa-linkedin:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-spotify:hover{
     color: #fbaf29;
+  }
+  .form-control{
+    color: #000;
   }
 }
 .white-theme{
@@ -213,21 +219,8 @@ nav{
   border-radius: 5px;
   color: #fff;
 }
-.socials{
-  
-}
-.fa-brands {
-  color: #fff;
-  margin: 0;
-}
 
-.fa-brands:hover{
-  background-color: transparent;
-  color: #e29d27;
-}
-.socials-container{
-  margin-bottom: 5rem;
-}
-.socials-head{
-  margin-top: 5rem;
-}
+.form-control:focus {
+  border-color: #fbaf29;
+  box-shadow: 0 0 0 0.2rem rgba(251, 175, 41, 0.25);
+} 
